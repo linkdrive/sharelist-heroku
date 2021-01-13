@@ -6,8 +6,4 @@ EXPOSE 33001
 
 RUN chmod -R 777 /sharelist/cache 
 
-ADD deploy.sh /deploy.sh
 
-RUN chmod +x /deploy.sh 
-
-CMD /deploy.sh
