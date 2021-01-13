@@ -1,5 +1,3 @@
-apk add --update openssl
-
 if echo "$CONFIG" | grep -q -i "^http"; then
   wget --no-check-certificate $CONFIG -O /sharelist/cache/config.json
 else
