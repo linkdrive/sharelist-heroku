@@ -3,3 +3,6 @@ if echo "$CONFIG" | grep -q -i "^http"; then
 else
   echo -e "$CONFIG" > /sharelist/cache/config.json
 fi
+
+cd /sharelist
+npm start
